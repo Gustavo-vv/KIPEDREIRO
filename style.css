@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar-mobile{
+    display: none;
+    
+
+}
+.navbar-desktop{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 50px;
+    text-decoration: none;
+    padding: -100px;
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    
+}
+.botao-flutuante{
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background-color: rgb(7, 7, 7);
+    border: none;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 6px 80px black;
+    text-decoration: none;
+}
+li{
+    justify-content: space-evenly;
+}
+img{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+header{
+    background-color: rgba(105, 104, 104, 0.753);
+    display:
+    position:relative;
+    width: 100%;
+}
+a{
+    color: rgb(21, 250, 0);
+    text-decoration: none;
+    top: 50px;
+}
